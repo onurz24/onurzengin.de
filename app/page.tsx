@@ -56,7 +56,7 @@ export default function Contact() {
 
           {/* Rechts: Signal */}
           <div className=" text-center">
-            <h1 className="text-5xl font-bold text-zinc-100 ">Signal Messenger</h1>
+            <h1 className="text-5xl font-bold text-zinc-100 ">Signal Messenger.</h1>
             <Link 
               href="https://signal.me/#eu/p-W22zE17H4L3t_fa9X_okxyWCdZwHsLuGP8dJtq8Tvnm0yI78VGKJTlS-gPgyYZ"
               className="block mx-auto cursor-pointer hover:opacity-90 transition-opacity"
