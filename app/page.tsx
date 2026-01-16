@@ -54,7 +54,7 @@ export default function Contact() {
           </div>
 
           {/* Rechts: Signal */}
-          <div className="text-center">
+          <div className="space-y-8 text-center">
             <h1 className="text-5xl font-bold text-white">Signal Messenger</h1>
             <Link 
               href="https://signal.me/#eu/p-W22zE17H4L3t_fa9X_okxyWCdZwHsLuGP8dJtq8Tvnm0yI78VGKJTlS-gPgyYZ"
@@ -62,7 +62,7 @@ export default function Contact() {
               aria-label="Über Signal chatten"
             >
               <Image 
-                src="/SignalQR.png" 
+                src={"/SignalQR.png"}
                 alt="Signal QR-Code für Onur Zengin"
                 priority 
                 quality={100} 
