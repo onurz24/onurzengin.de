@@ -7,7 +7,7 @@ export default function Contact() {
   const pgpUrl = `https://keys.openpgp.org/vks/v1/by-fingerprint/${fingerprint}`;
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-zinc-900 to-zinc-800 font-sans text-zinc-100">
+    <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-zinc-900 to-zinc-800 font-sans text-zinc-100">
       <main className="w-full max-w-6xl p-8">
         {/* Desktop: Side-by-Side */}
         <div className="hidden md:grid md:grid-cols-2 gap-12 items-center">
