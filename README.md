@@ -13,8 +13,7 @@ Bevor du startest, müssen **Node.js** (LTS Version empfohlen) und **pnpm** auf 
 Ordner in Visual Studio Code öffnen.
 
 ### 2. Abhängigkeiten installieren
-Terminal öffnen und folgenden Befehl ausführen: <br/>
-`pnpm i`
+Terminal öffnen und folgenden Befehl ausführen: `pnpm i`
 
 ### 3. Lokale Entwicklung
 `pnpm run dev` Development Server Starten. <br/>
