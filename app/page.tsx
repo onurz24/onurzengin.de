@@ -23,20 +23,19 @@ export default function Contact() {
               </Link>
             </div>
 
-            <div className="bg-emerald-950/30 p-8 rounded-2xl border-2 border-emerald-800">
               <Link
                 href="/public.asc"
                 download="onur-zengin-public-key.asc"
-                className="inline-flex items-center justify-center gap-3 bg-emerald-800 hover:bg-emerald-700 text-zinc-100 px-10 py-6 rounded-xl font-bold text-xl w-full transition-colors cursor-pointer border border-emerald-700"
+                className="inline-flex items-center justify-center gap-3
+                 bg-blue-800 hover:bg-blue-700 text-zinc-100 px-10 py-6  font-bold text-xl w-full transition-colors cursor-pointer border border-blue-700"
               >
                 <KeyRound size={24} />
                 OpenPGP Key herunterladen
               </Link>
-            </div>
 
-            <div className="bg-zinc-800 p-8 rounded-2xl">
-              <strong className="block text-2xl mb-6 font-mono text-zinc-200">Fingerprint:</strong>
-              <div className="grid grid-cols-3 gap-4 text-lg font-mono text-zinc-400">
+            <div className="bg-zinc-800 p-8 ">
+              <strong className="block text-2xl mb-6 font-mono text-white">Fingerprint:</strong>
+              <div className="grid grid-cols-3 gap-4 text-lg font-mono text-white">
                 <span>2048 2FDC</span>
                 <span>3A11 B6AB</span>
                 <span>B609 4A3D</span>
@@ -55,8 +54,8 @@ export default function Contact() {
           </div>
 
           {/* Rechts: Signal */}
-          <div className=" text-center">
-            <h1 className="text-5xl font-bold text-zinc-100 ">Signal Messenger.</h1>
+          <div className="text-center">
+            <h1 className="text-5xl font-bold text-white">Signal Messenger</h1>
             <Link 
               href="https://signal.me/#eu/p-W22zE17H4L3t_fa9X_okxyWCdZwHsLuGP8dJtq8Tvnm0yI78VGKJTlS-gPgyYZ"
               className="block mx-auto cursor-pointer hover:opacity-90 transition-opacity"
@@ -80,13 +79,13 @@ export default function Contact() {
         </div>
 
         {/* Mobile: Vertical Stack */}
-        <div className="md:hidden flex flex-col space-y-16">
+        <div className="md:hidden mt-8 flex flex-col space-y-16">
           {/* Signal oben */}
           <section className="space-y-8 text-center">
             <h1 className="text-4xl font-bold text-zinc-100">Signal Messenger</h1>
             <Link 
               href="https://signal.me/#eu/p-W22zE17H4L3t_fa9X_okxyWCdZwHsLuGP8dJtq8Tvnm0yI78VGKJTlS-gPgyYZ"
-              className="block mx-auto cursor-pointer hover:opacity-90 transition-opacity"
+              className="flex flex-col justify-center cursor-pointer  items-center hover:opacity-90 transition-opacity"
               aria-label="Über Signal chatten"
             >
               <Image 
@@ -109,26 +108,29 @@ export default function Contact() {
 
           {/* E-Mail + PGP unten */}
           <section className="space-y-8">
-            <h1 className="text-4xl font-bold text-zinc-100 text-center">E-Mail</h1>
+            <h1 className="text-4xl font-bold text-white text-center">E-Mail</h1>
             <Link
               href="mailto:info@onurzengin.de"
-              className="block text-3xl font-black text-blue-400 hover:text-blue-300 underline underline-offset-8 mx-auto transition-colors cursor-pointer"
+              className="block w-full text-center text-3xl font-black
+               text-blue-400 hover:text-blue-300 underline 
+               underline-offset-8 mx-auto transition-colors cursor-pointer"
             >
               info@onurzengin.de
             </Link>
 
-            <div className="bg-emerald-950/30 p-8 rounded-2xl border-2 border-emerald-800 mx-auto max-w-md w-full">
+            <div className="bg-blue-950/30 p-8  border-2 border-blue-800 mx-auto max-w-md w-full">
               <Link
                 href="/public.asc"
                 download="onur-zengin-public-key.asc"
-                className="inline-flex items-center justify-center gap-3 bg-emerald-800 hover:bg-emerald-700 text-zinc-100 px-8 py-5 rounded-xl font-bold text-lg w-full transition-colors cursor-pointer border border-emerald-700"
+                className="inline-flex items-center justify-center gap-3 bg-blue-800 border-2 border-blue-700 hover:bg-blue-700 text-white px-8 py-5
+                  font-bold text-lg w-full transition-colors cursor-pointer"
               >
                 <KeyRound size={24} />
                 OpenPGP Key herunterladen
               </Link>
             </div>
 
-            <div className="bg-zinc-800 p-6 rounded-xl mx-auto max-w-md w-full">
+            <div className="bg-zinc-800 p-6 mx-auto max-w-md w-full">
               <strong className="block text-xl mb-4 font-mono text-zinc-200 text-center">Fingerprint:</strong>
               <div className="grid grid-cols-3 gap-2 text-sm font-mono text-zinc-400 justify-items-center">
                 <span>2048 2FDC</span>
